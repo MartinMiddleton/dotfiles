@@ -1,0 +1,4 @@
+export PATH="$HOME/bin:$HOME/.local/bin:$PATH"
+
+# Add the Android SDK stand-alone tools
+export PATH=$PATH:$HOME/platform-tools
