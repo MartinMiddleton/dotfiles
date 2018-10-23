@@ -2,14 +2,3 @@ export PATH="$HOME/bin:$HOME/.local/bin:$PATH"
 
 # Add the Android SDK stand-alone tools
 export PATH=$PATH:$HOME/platform-tools
-
-# Add the stuff for Python virtual environments
-export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/.virtualenv_projects
-source ~/.local/bin/virtualenvwrapper.sh
-
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-if command -v pyenv 1>/dev/null 2>&1; then
-  eval "$(pyenv init -)"
-fi
